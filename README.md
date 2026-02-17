@@ -1,4 +1,4 @@
-# creating-a-backdoor-with-SET
+# Creating a backdoor with SET
 creating a backdoor with SET - Ethical Hacking Techniques course
 
 # AIM:
@@ -56,11 +56,12 @@ It shows the following screen in which the ip address of the attacker need to be
 
 
 
-It shows the following screen in which the option Twitter can be selected:
+It shows the following screen in which the option Google can be selected:
 ## OUTPUT
 
 
-<img width="736" height="381" alt="Screenshot 2026-02-17 105951" src="https://github.com/user-attachments/assets/072e22e2-4c5c-4d46-b781-e83b7fb75721" />
+<img width="752" height="409" alt="image" src="https://github.com/user-attachments/assets/619a1a2b-98b0-47e6-9e02-afdb9a038a33" />
+
 
 
 SET starts my Kali Linux Webserver on port 80, with the fake Google account login page. The setup is done:
@@ -72,27 +73,21 @@ SET starts my Kali Linux Webserver on port 80, with the fake Google account logi
 In windows IE, on giving the url http://192.168.1.2 (use appropriate IP address), the fake Google page is displayed. The victim can enter the username and password
 ## OUTPUT
 
-<img width="950" height="669" alt="Screenshot 2026-02-17 110037" src="https://github.com/user-attachments/assets/fc10857c-c4ba-4977-a3d4-c3e4d5d36659" />
+<img width="947" height="879" alt="image" src="https://github.com/user-attachments/assets/388c2449-e8ab-437d-a050-051412f1a7ad" />
 
-SET logs the information regarding the Twitter credentials:
+
+SET logs the information regarding the Google credentials:
 ## OUTPUT
 
-<img width="824" height="774" alt="Screenshot 2026-02-17 110007" src="https://github.com/user-attachments/assets/3b02cd70-505d-47c4-b75e-9c0b98ea8ff5" />
+<img width="930" height="554" alt="image" src="https://github.com/user-attachments/assets/1348b75e-9eaa-479b-a212-20cf9d264a3c" />
 
 
 SET logs the information in the xml file under /root/.set directory:
 ## OUTPUT
 
-
-
-
-
-
-
-
-
+<img width="930" height="366" alt="image" src="https://github.com/user-attachments/assets/c07c817c-879a-481c-8806-7844c0aa08b7" />
 
 
 
 ## RESULT:
-The Social Engineering Toolkit (SET) is used to create backdoor is  examined successfully
+The Social Engineering Toolkit (SET) is used to create backdoor is  examined successfully.
